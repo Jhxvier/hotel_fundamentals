@@ -1,0 +1,174 @@
+body{
+    background-color: #9BB9BD;
+    font-size: 16px;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+#wrapper{
+    max-width: 480px;
+    min-width: 380px;
+    height: 100%;
+    background-color: white;
+    margin: 0 auto;
+}
+
+/*ENCABEZADO*/
+header{
+    height: 60px;
+    text-align: center;
+}
+
+/*MENÚ*/
+nav{
+    width: 480px;
+    min-width: 380px;
+    height: 30px;
+    font-size: 12px;
+    font-weight: bold;
+    position:fixed;
+    z-index: 100;
+    top:0;   
+    background-color: rgba(214, 230, 232, 0.8);
+}
+
+nav ul{
+    list-style: none;
+    margin: 3px;
+    padding-left: 0;
+}
+
+nav ul li{
+    float: left;
+    margin-left: 30px;
+}
+
+nav ul li a{
+    display: block;
+    padding: 5px 5px;
+}
+
+nav a:link, a:visited, a:active{
+    color: #009DAD;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #009DAD;
+    border-radius: 5px;
+}
+
+/*CONTENIDO CENTRAL*/
+
+main{
+    height: 1270px; 
+}
+
+/*SECCIÓN 1*/
+#part1{
+    width: 100%;
+    height: 670px;
+    text-align: center;
+    color: #009DAD;
+    float: left;
+}
+
+#part1 h3{
+    line-height: 0.5;
+}
+
+hr{
+    width: 20px;
+    height: 1.5px;
+    background-color: #009DAD;
+    border: none;
+}
+
+#part1 p{
+    padding: 0px 40px;
+    font-size: 12px;
+    font-style: italic;
+    color: #009DAD;
+    
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    overflow:hidden;
+}
+
+.alineacion{
+    position: absolute;
+    bottom: 5%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor img:hover{
+    transform: scale(1.1); 
+    filter: saturate(150%);
+    transition: 0.8s;
+}
+
+#part1 a.btn_leermas{
+    padding: 8px;
+    padding-top: 8px;
+    font-weight: bold;
+    color: #009DAD;
+    border: solid #009DAD;
+    font-size: 8px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+#part1 a:hover{
+    color: white;
+    background-color: #009DAD;
+    border-radius: 5px;
+}
+
+/*PIE DE PÁGINA*/
+footer{
+    width: 100%;
+    height: 180px;
+    float: left;
+    text-align: center;
+    background-color: white;
+}
+
+footer ul{
+    list-style: none;
+    display: flex; 
+	justify-content: center;
+	align-items: center;
+}
+
+footer ul li{
+    float: left;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+footer a:link, a:visited, a:active{
+    color: #009DAD;
+    text-decoration: none;
+}
+
+footer ul li:hover{
+    transform: scale(1.1);
+}
+
+footer img{
+    margin: 0 auto;
+    display: block;
+}
+
+.politicas{
+    font-size: 7px;
+}
+
